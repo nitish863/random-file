@@ -1,0 +1,41 @@
+.nav{
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: ;
+    align-items: center;
+}
+.logo{
+    height: 100%;
+    width: 30%;
+    background-color: brown;
+}
+.links{
+    height: 100%;
+    width: 70%;
+    background-color: black;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column; 
+   
+}
+.offcanvas-body{
+    display: none;
+}
+.barss{
+    font-size: 3vw;
+    color: red;
+    display: none;
+}
+@media(max-width:500px){
+    .links ul {
+        display: none;
+    }
+    .barss{
+        display: block;
+    }
+    .offcanvas-body{
+        display: block;
+    }
+}
